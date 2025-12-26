@@ -6,7 +6,7 @@
     <title>Alphabetical Article Sorter</title>
 </head>
 <body>
-    <ul id="band"></ul>
+    <ul id="bands"></ul> <!-- Change 'band' to 'bands' -->
     <script>
         const bands = ['The Plot in You', 'The Devil Wears Prada', 'Pierce the Veil', 'Norma Jean', 'The Bled', 'Say Anything', 'The Midway State', 'We Came as Romans', 'Counterparts', 'Oh, Sleeper', 'A Skylit Drive', 'Anywhere But Here', 'An Old Dog'];
 
@@ -15,7 +15,7 @@
             return removeArticles(a).localeCompare(removeArticles(b));
         });
 
-        const bandList = document.getElementById('band');
+        const bandList = document.getElementById('bands'); // Update to 'bands'
 
         bands.forEach(band => {
             const li = document.createElement('li');
