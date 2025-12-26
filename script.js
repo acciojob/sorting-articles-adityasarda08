@@ -15,7 +15,7 @@ const bands = ['The Plot in You',
 			 ]
 
   function stripArticle(name) {
-    return name.replace(/^(a |an |the|We )/i, '').trim();
+    return name.replace(/^(a |an |the )/i, '').trim();
   }
 
   bands.sort((a, b) => {
