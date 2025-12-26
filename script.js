@@ -22,10 +22,10 @@ const bands = ['The Plot in You',
     return stripArticle(a).localeCompare(stripArticle(b));
   });
 
-  const ul = document.getElementById('band');
+  const ul = document.getElementById('bands');
 
 
-  bands.forEach(band => {
+  bands.forEach(bands => {
     const li = document.createElement('li');
     li.textContent = band;
     ul.appendChild(li);
